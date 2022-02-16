@@ -8,6 +8,8 @@
 #---
 defmodule Sneakers23Web.ErrorViewTest do
   use Sneakers23Web.ConnCase, async: true
+  import Plug.Conn
+  #import Sneakers23Web.ConnCase
 
   # Bring render/3 and render_to_string/3 for testing custom views
   import Phoenix.View

@@ -9,9 +9,9 @@
 defmodule Sneakers23Web.Endpoint do
   use Phoenix.Endpoint, otp_app: :sneakers_23
 
-  socket "/socket", Sneakers23Web.UserSocket,
+  socket "/product_socket", Sneakers23Web.ProductSocket,
     websocket: true,
-    longpoll: false
+    longpoll: true
 
   # Serve at "/" the static files from "priv/static" directory.
   #

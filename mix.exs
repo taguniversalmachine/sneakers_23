@@ -41,12 +41,12 @@ defmodule Sneakers23.MixProject do
   # Type `mix help deps` for examples and options.
   defp deps do
     [
-      {:phoenix, "~> 1.6.0"},
-      {:phoenix_pubsub, "~> 2.0.0"},
+      {:phoenix, "~> 1.6.6"},
+      {:phoenix_pubsub, "~> 2.0"},
       {:phoenix_ecto, "~> 4.4.0"},
       {:ecto_sql, "~> 3.7.2"},
       {:postgrex, ">= 0.0.0"},
-      {:phoenix_html, "~> 3.2.0"},
+      {:phoenix_html, "~> 2.11"},
       {:phoenix_live_reload, "~> 1.3.3", only: :dev},
       {:gettext, "~> 0.11"},
       {:jason, "~> 1.0"},
